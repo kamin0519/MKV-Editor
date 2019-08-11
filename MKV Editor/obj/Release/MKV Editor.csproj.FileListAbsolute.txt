@@ -1,0 +1,9 @@
+C:\Users\User\source\repos\MKV Editor\MKV Editor\bin\Release\MKV Editor.exe.config
+C:\Users\User\source\repos\MKV Editor\MKV Editor\bin\Release\MKV Editor.exe
+C:\Users\User\source\repos\MKV Editor\MKV Editor\bin\Release\MKV Editor.pdb
+C:\Users\User\source\repos\MKV Editor\MKV Editor\obj\Release\MKV_Editor.Form1.resources
+C:\Users\User\source\repos\MKV Editor\MKV Editor\obj\Release\MKV_Editor.Properties.Resources.resources
+C:\Users\User\source\repos\MKV Editor\MKV Editor\obj\Release\MKV Editor.csproj.GenerateResource.cache
+C:\Users\User\source\repos\MKV Editor\MKV Editor\obj\Release\MKV Editor.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\MKV Editor\MKV Editor\obj\Release\MKV Editor.exe
+C:\Users\User\source\repos\MKV Editor\MKV Editor\obj\Release\MKV Editor.pdb
