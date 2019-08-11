@@ -72,7 +72,7 @@ namespace MKV_Editor
             folderBrowserDialog1.RootFolder = Environment.SpecialFolder.Desktop;
             if (folderBrowserDialog1.ShowDialog(this) == DialogResult.OK)
             {
-                if (input_folder == output_folder)
+                if (input_folder == folderBrowserDialog1.SelectedPath)
                 {
                     if (MessageBox.Show("mkvがあるフォルダと同じフォルダですが、よろしいですか？\r\n\r\n(ファイル名)_2.mkvといった感じになります。", "Info", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.Yes)
                     {
@@ -105,6 +105,10 @@ namespace MKV_Editor
             if (checkBox1.Checked && checkBox2.Checked && checkBox3.Checked && checkBox4.Checked)
                 if (MessageBox.Show("何もないファイルが生成されますが、よろしいですか？", "Info", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
                     Isrun = false;
+            if (IsSomeFolder)
+                if (MessageBox.Show("mkvがあるフォルダと同じフォルダですが、よろしいですか？\r\n\r\n(ファイル名)_2.mkvといった感じになります。", "Info", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
+                    Isrun = false;
+
 
             if (Isrun)
             {
