@@ -109,7 +109,6 @@ namespace MKV_Editor
                 if (MessageBox.Show("mkvがあるフォルダと同じフォルダですが、よろしいですか？\r\n\r\n(ファイル名)_2.mkvといった感じになります。", "Info", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == DialogResult.No)
                     Isrun = false;
 
-
             if (Isrun)
             {
                 foreach (string file in input_folderFiles)
